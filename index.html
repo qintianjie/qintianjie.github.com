@@ -1,1 +1,12 @@
 Hello World!
+
+Q: qtj@jack /opt/dev/github/qintianjie.github.com $git push -u origin master
+error: The requested URL returned error: 403 Forbidden while accessing https://github.com/qintianjie/qintianjie.github.com.git/info/refs
+
+fatal: HTTP request failed
+
+A: qtj@jack /opt/dev/github/qintianjie.github.com $git remote set-url origin  https://qintianjie@github.com/qintianjie/qintianjie.github.com.git
+   then go on: 
+		git push -u origin master
+
+
